@@ -1,6 +1,7 @@
+// This is the correct content for postcss.config.js
 export default {
-  plugins: [
-    import('@tailwindcss/postcss'),
-    import('autoprefixer'),
-  ],
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
 }
